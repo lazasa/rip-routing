@@ -5,17 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>RIP routing</title>
   <!-- tailwind  -->
-   <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-          }
-        }
-      }
-    }
-  </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="tailwind.js"></script>
 </head>
 <body>
   <div id="root"></div>
@@ -26,11 +17,7 @@
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>  
 
   <!-- App  -->
-  <script type="text/babel">
-    const Root = () => <h1>hello</h1>
-
-    ReactDOM.createRoot(document.getElementById('root')).render(<Root />)
-  </script>
+  <script type="text/babel" src="script.js"></script>
   <noscript>You need JS to use this page!</noscript>
 </body>
 </html>
