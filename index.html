@@ -15,9 +15,11 @@
   <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>  
+  <!-- TypeScript support -->
+  <script src="https://unpkg.com/@babel/preset-typescript@7.23.3/lib/index.js"></script>
 
   <!-- App  -->
-  <script type="text/babel" src="script.js"></script>
+  <script type="text/babel" data-presets="react,typescript" src="script.tsx"></script>
   <noscript>You need JS to use this page!</noscript>
 </body>
 </html>
